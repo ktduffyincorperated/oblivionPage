@@ -1,0 +1,73 @@
+@font-face {
+    font-family: aldrich;
+    src: url(aldrich/Aldrich-Regular.woff);
+    font-weight: bold;
+  }
+
+
+body{
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    font-family: aldrich;
+    background: #9C0A8E;
+}
+
+iframe{
+    width: 100vw;
+    height: 95vh;
+}
+
+#buttons{
+    width: 100vw;
+    height: 5vw;
+    display: flex;
+    flex-direction: row;
+    z-index: 100;
+    margin: -2vh 0 0 0;
+    text-align: center;
+    color: white;
+}
+
+.game{
+    flex: 1;
+    background-color:#9C0A8E;
+}
+
+.game h2{
+   margin: 2vh 0;
+}
+
+.info{
+    flex: 1;
+    background-color: #004939;
+
+}
+
+.info h2{
+    margin: 2vh 0;
+}
+
+#infoPage{
+    position: absolute;
+    width: 100vw;
+    height: 95vh;
+    background-color: #004939;
+    color: white;
+}
+
+.x{
+    position: absolute;
+    top: 2vh;
+    right: 2vw;
+    color: #6E9C0A;
+    font-size: 1.3em;
+}
+
+#infoPage p{
+    width: 85vw;
+    height: 85vh;
+    background-color: #025744;
+    margin: 3vh auto;
+    line-height: 1.5em;
+}
