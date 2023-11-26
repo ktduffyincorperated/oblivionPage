@@ -11,7 +11,34 @@ body{
     position: relative;
     font-family: aldrich;
     background: #9C0A8E;
+    cursor:url(assets/one.gif), auto;
+    -webkit-animation: cursor 400ms infinite;
+  animation: cursor 400ms infinite;
 }
+
+a{
+    cursor: cell;
+    color: white;
+    text-decoration: none;
+}
+
+@-webkit-keyframes cursor {
+    0% {cursor: url(assets/one.gif), auto;}
+    20% {cursor: url(assets/two.gif), auto;}
+    40% {cursor: url(assets/three.gif), auto;}
+    60% {cursor: url(assets/four.gif), auto;}
+    80% {cursor: url(assets/five.gif), auto;}
+    100% {cursor: url(assets/six.gif), auto;}
+  } 
+  
+  @keyframes cursor {
+    0% {cursor: url(assets/one.gif), auto;}
+    20% {cursor: url(assets/two.gif), auto;}
+    40% {cursor: url(assets/three.gif), auto;}
+    60% {cursor: url(assets/four.gif), auto;}
+    80% {cursor: url(assets/five.gif), auto;}
+    100% {cursor: url(assets/six.gif), auto;}
+  } 
 
 iframe{
     width: 100vw;
@@ -61,7 +88,7 @@ iframe{
     top: 2vh;
     right: 2vw;
     color: #6E9C0A;
-    font-size: 1.3em;
+    font-size: 2em;
 }
 
 #infoPage p{

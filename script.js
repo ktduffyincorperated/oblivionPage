@@ -12,6 +12,7 @@ $(".info").on("click", function(){
 
 $(".x").on("click", function(){
     $("iframe").fadeIn("slow");
+    $(this).fadeOut();
 });
 
 });
